@@ -1,0 +1,7 @@
+node_modules
+dist
+uploads
+outputs
+inputs
+.git
+.DS_Store

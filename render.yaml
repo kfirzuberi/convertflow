@@ -1,7 +1,6 @@
 services:
   - type: web
     name: convertflow
-    runtime: node
+    runtime: docker
     plan: free
-    buildCommand: npm ci && npm run build
-    startCommand: npm start
+    dockerfilePath: ./Dockerfile
